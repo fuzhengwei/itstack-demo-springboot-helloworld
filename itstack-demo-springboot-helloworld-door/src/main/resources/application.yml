@@ -1,9 +1,9 @@
 server:
-  port: 8080
+  port: 8081
 
 spring:
   application:
-    name: itstack-demo-springboot-helloworld
+    name: itstack-demo-springboot-helloworld-door
 
 # 自定义中间件配置
 itstack:

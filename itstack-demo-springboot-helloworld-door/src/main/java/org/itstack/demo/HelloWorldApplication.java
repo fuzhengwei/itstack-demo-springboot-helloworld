@@ -2,7 +2,6 @@ package org.itstack.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.ImportResource;
 
@@ -12,7 +11,6 @@ import org.springframework.context.annotation.ImportResource;
  * Create by 付政委 on @2019
  */
 @SpringBootApplication
-@ComponentScan("org.itstack.*")
 @Configuration
 @ImportResource(locations = {"classpath:spring-config.xml"})
 public class HelloWorldApplication {

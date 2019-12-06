@@ -1,0 +1,14 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: itstack-demo-springboot-helloworld-schedule
+
+# 自定义中间件配置
+itstack:
+  middleware:
+    scheudle:
+      zkAddress: 127.0.0.1:2181
+      schedulerServerId: itstack-demo-springboot-helloworld-schedule
+      schedulerServerName: 分布式任务测试
