@@ -13,9 +13,9 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.itatack.middleware</groupId>
+            <groupId>org.itstack.middleware</groupId>
             <artifactId>schedule-spring-boot-starter</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
+            <version>1.0.0.RELEASE</version>
         </dependency>
     </dependencies>
 
